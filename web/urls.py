@@ -20,7 +20,7 @@ from users import urls as users_urls
 from django.conf.urls import include
 
 urlpatterns = [
-    url(r'^accounts/', include(users_urls)),
+    url(r'^login/',head_view.login),
     url(r'^$',head_view.home),
     url(r'^admin/', admin.site.urls),
 ]
