@@ -16,8 +16,6 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from head import views as head_view
-from users import urls as users_urls
-from django.conf.urls import include
 
 urlpatterns = [
     url(r'^login/',head_view.login),
