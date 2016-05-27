@@ -24,7 +24,7 @@ class WORK_FORM(models.Model):
     WorkerID=models.ForeignKey(Order)
     WorkName=models.CharField(max_length=10,null=True)
     DATE_R=models.DateField(auto_created=True,null=True)
-    
+
 
 
 
