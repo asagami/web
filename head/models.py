@@ -1,29 +1,55 @@
 from django.db import models
 
 # Create your models here.
-class userform(models.Model):
+class USER(models.Model):
     UserID= models.IntegerField(default=0, primary_key=True)
+    UserEmail=models.EmailField(null=False)
     UserPasswd =models.CharField(max_length=200)
     UserName=models.CharField(max_length=10)
-    UserRemark=models.CharField(max_length=200)
+    UserRemark=models.TextField(max_length=200)
     def __str__(self):
         return self.UserName
 
-class Order(models.Model):
-    UserID=models.ForeignKey(userform)
+class ADMIN(models.Model):
+    AdminID = models.IntegerField(default=0, primary_key=True)
+    AdminEmail = models.EmailField(null=False)
+    AdminPasswd = models.CharField(max_length=200)
+    AdminName = models.CharField(max_length=10)
+
+class ORDER(models.Model):
+    UserID=models.ForeignKey(USER,primary_key=True)
+    OrderName=models.CharField(max_length=10, null=True)
+    OrderID = models.IntegerField(default=0, primary_key=True)
     DATE_R=models.DateField(auto_now_add=False,null=True)
     DATE_D=models.DateField(auto_now_add=False,null=True)
-    DES=models.CharField(max_length=200,null=True)
-    OrderID=models.IntegerField(default=0 ,primary_key=True)
-    WorkerID=models.IntegerField(default=0)
+    DES=models.TextField(null=True)
+    Price=models.IntegerField(null=False)
+    Status=models.BooleanField(null=False)
     def __str__(self):
-        return self.DES
-
+        return self.OrderName
 
 class WORK_FORM(models.Model):
-    WorkerID=models.ForeignKey(Order)
-    WorkName=models.CharField(max_length=10,null=True)
-    DATE_R=models.DateField(auto_created=True,null=True)
+    Work_FormID=models.IntegerField(null=False,primary_key=True)
+    OrderID=models.ForeignKey(ORDER)
+    Work_FormName=models.CharField(max_length=20)
+    WorkerID = models.IntegerField(null=False)
+    Date=models.DateField(null=True)
+    DES=models.TextField(max_length=200)
+    Status = models.BooleanField(null=False)
+    def __str__(self):
+        return self.Work_FormName
+
+class QC_FORM(models.Model):
+    Work_FormID=models.ForeignKey(WORK_FORM)
+    WorkerID=models.IntegerField(null=False)
+    QC_ID=models.IntegerField(null=False)
+    Quality=models.BooleanField(null=False)
+    def __int__(self):
+        return self.Work_FormID
+
+
+
+
 
 
 
