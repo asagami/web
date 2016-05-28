@@ -15,9 +15,11 @@ class ADMIN(models.Model):
     AdminEmail = models.EmailField(null=False)
     AdminPasswd = models.CharField(max_length=200)
     AdminName = models.CharField(max_length=10)
+    def __str__(self):
+        return self.AdminName
 
 class ORDER(models.Model):
-    UserID=models.ForeignKey(USER,primary_key=True)
+    UserID=models.ForeignKey(USER)
     OrderName=models.CharField(max_length=10, null=True)
     OrderID = models.IntegerField(default=0, primary_key=True)
     DATE_R=models.DateField(auto_now_add=False,null=True)
@@ -46,6 +48,7 @@ class QC_FORM(models.Model):
     Quality=models.BooleanField(null=False)
     def __int__(self):
         return self.Work_FormID
+
 
 
 
