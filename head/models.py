@@ -2,8 +2,7 @@ from django.db import models
 
 # Create your models here.
 class USER(models.Model):
-    UserID= models.IntegerField(default=0, primary_key=True)
-    UserEmail=models.EmailField(null=False)
+    UserEmail=models.EmailField(null=False,primary_key=True)
     UserPasswd =models.CharField(max_length=200)
     UserName=models.CharField(max_length=10)
     UserRemark=models.TextField(max_length=200)
@@ -11,7 +10,7 @@ class USER(models.Model):
         return self.UserName
 
 class ADMIN(models.Model):
-    AdminID = models.IntegerField(default=0, primary_key=True)
+    AdminID = models.IntegerField(null=False,primary_key=True)
     AdminEmail = models.EmailField(null=False)
     AdminPasswd = models.CharField(max_length=200)
     AdminName = models.CharField(max_length=10)

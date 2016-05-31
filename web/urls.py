@@ -18,12 +18,11 @@ from django.contrib import admin
 from head import views as head_view
 urlpatterns = [
     url(r'make/',head_view.detail),
-    url(r'test/',head_view.get_name),
     url(r'^detail/',head_view.detail),
     url(r'^login/',head_view.login),
     url(r'^$',head_view.home),
     url(r'^admin/', admin.site.urls),
-    url(r'^search-form/$', head_view.search_form),
-	url(r'^search/$', head_view.search),
-    url(r'^log/',head_view.log)
+    url(r'^log/',head_view.log),
+    url(r'^sign/',head_view.sign),
+    url(r'signup',head_view.sign_up)
 ]
