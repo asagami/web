@@ -28,15 +28,11 @@ def sign (request):
     if request.POST:
         userid=request.POST['userID']
         passwd=request.POST['passwd']
-        passwd_re=request.POST['passed_re']
         name=request.POST['name']
         remark=request.POST['remark']
-        if str(passwd_re)==str(passwd):
-            user=USER(UserEmail=userid,UserPasswd=passwd,UserName=name, UserRemark=remark)
-            user.save()
-            return HttpResponse("注册成功")
-        else:
-            return HttpResponse("注册失败")
+        user=USER(UserEmail=userid,UserPasswd=passwd,UserName=name, UserRemark=remark)
+        user.save()
+        return HttpResponse("注册成功")
 
 def sign_up(request):
     return render(request,'sign up.html')
