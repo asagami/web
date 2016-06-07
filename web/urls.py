@@ -24,5 +24,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^log/',head_view.log),
     url(r'^sign/',head_view.sign),
-    url(r'signup/',head_view.sign_up)
+    url(r'signup/',head_view.sign_up),
+    url(r'^order/',head_view.order)
 ]

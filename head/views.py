@@ -3,9 +3,10 @@ from django.http import  HttpResponseRedirect
 from django.http import  HttpResponse
 from django.shortcuts import  render_to_response
 from head.models import USER
+
 # Create your views here.
 def home (request):
-    return render(request,'mainpage.html')
+    return render(request,'loginmainpage.html')
 
 def detail(request):
     return render(request,'headline.html')
@@ -19,7 +20,7 @@ def log (request):
         passwd=request.POST['passwd']
         try:
             if USER.objects.get(UserEmail=userid) and USER.objects.filter(UserPasswd=passwd):
-                message=str(userid)
+                se
         except USER.DoesNotExist:
             return HttpResponse("登录失败，请重新登录")
     return render(request,'loginmainpage.html',{'message':message})
@@ -36,3 +37,6 @@ def sign (request):
 
 def sign_up(request):
     return render(request,'sign up.html')
+
+def order(request):
+    return render(request,'order.html')
