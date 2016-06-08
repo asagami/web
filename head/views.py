@@ -3,6 +3,8 @@ from django.http import  HttpResponseRedirect
 from django.http import  HttpResponse
 from django.shortcuts import  render_to_response
 from head.models import USER
+from django.template import RequestContext
+
 
 # Create your views here.
 def home (request):
@@ -20,10 +22,12 @@ def log (request):
         passwd=request.POST['passwd']
         try:
             if USER.objects.get(UserEmail=userid) and USER.objects.filter(UserPasswd=passwd):
-                se
+                request.session['login_in']=userid
+                message=userid
         except USER.DoesNotExist:
             return HttpResponse("登录失败，请重新登录")
-    return render(request,'loginmainpage.html',{'message':message})
+    return render_to_response(request,'loginmainpage.html',{'message':message},)
+
 
 def sign (request):
     if request.POST:
@@ -37,6 +41,13 @@ def sign (request):
 
 def sign_up(request):
     return render(request,'sign up.html')
+
+def log_out(request):
+    try:
+        del request.session['login_in']
+    except KeyError:
+        pass
+    return render(request,'loginmainpage.html')
 
 def order(request):
     return render(request,'order.html')
