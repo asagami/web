@@ -27,4 +27,5 @@ urlpatterns = [
     url(r'signup/',head_view.sign_up),
     url(r'^order/',head_view.order),
     url(r'^logout',head_view.log_out),
+    url(r'Diomand',head_view.DIMMAND)
 ]
