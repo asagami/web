@@ -14,7 +14,7 @@ def home (request):
     return render(request,'mainpage.html')
 
 def detail(request):
-    return render(request,'headline.html')
+    return render(request,'detail.html')
 
 def login (request):
     return render(request,'login.html')
@@ -29,7 +29,7 @@ def log (request):
             message=userid
             return render_to_response( 'mainpage.html', {'message': message},context_instance=RequestContext(request))
         else:
-            return HttpResponseRedirect("/login",{""})
+            return HttpResponseRedirect("/login")
 
 
 def sign (request):
@@ -38,22 +38,24 @@ def sign (request):
         passwd=request.POST['passwd']
         passwd_re=request.POST['passwd_re']
         name=request.POST['name']
-        if passwd==passwd_re:
-            user=User.objects.create_user(name,userid,passwd)
-            user.save()
-        else:
-            return HttpResponseRedirect('/signup')
-    return HttpResponse("注册成功")
+        try:
+            if passwd==passwd_re :
+                user=User.objects.create_user(name,userid,passwd)
+                user.save()
+            else:
+                message=u'两次密码不同'
+                return render(request, 'sign up.html', {'message': message})
+        except:
+            message=u'注册失败,请重新注册'
+            return render(request,'sign up.html',{'message':message})
+    return HttpResponseRedirect('/')
 
 def sign_up(request):
     return render(request,'sign up.html')
 
 def log_out(request):
-    try:
-        del request.session['login_in']
-    except KeyError:
-        pass
-    return render(request,'mainpage.html')
+    auth.logout(request)
+    return HttpResponseRedirect('/')
 
 def order(request):
     return render(request,'order.html')

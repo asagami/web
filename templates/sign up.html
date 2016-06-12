@@ -34,14 +34,12 @@
   <body>
     <div>
         <h1 class="form-signin">欢迎来到浙地珠宝</h1>
-    </div>
-    ,<div>
+         <h3 class="form-signin"> {{ message }}</h3>
     </div>
     <div class="container">
 
       <form class="form-signin" action="/sign/" method="POST">
           {%csrf_token%}
-        <h2 class="form-signin-heading" style="">注册</h2>
           <label for="input" class="">用户名</label>
         <input type="text" id="inputEmail"   name="name" class="form-control" placeholder="Name" required="">
         <label for="inputEmail" class="">电子邮箱</label>
@@ -54,7 +52,15 @@
       </form>
 
     </div> <!-- /container -->
-
+    <script>
+        function sign_up_error() {
+            {
+                alert("登录失败")
+            }
+        }
+    </script>
+    <div>
+    </div>
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="./Signin Template for Bootstrap_files/ie10-viewport-bug-workaround.js"></script>

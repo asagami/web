@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+    {% extends 'headline.html' %}
+    {%  block body  %}
 <!-- saved from url=(0055)http://www.sucaihuo.com/modals/5/554/demo/products.html -->
-<html><head>
+<html>
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     {% load staticfiles %}
-<title>Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template| Products :: w3layouts</title>
+<title>购买页面</title>
 <link href="{% static "buy/bootstrap.css" %}" rel="stylesheet" type="text/css">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{% static "buy/jquery.min.js" %}"></script><style type="text/css">:root #header + #content > #left > #rlblock_left
@@ -11,96 +14,7 @@
 <!-- Custom Theme files -->
 <link href="{% static "buy/style.css" %}" rel="stylesheet" type="text/css" media="all">
 <link href="{% static "buy/form.css" %}" rel="stylesheet" type="text/css" media="all">
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<meta name="keywords" content="Pakhi Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<!--webfont-->
-<link href="{% static "buy/css" %}" rel="stylesheet" type="text/css">
-<!-- dropdown -->
-<script src="{% static "buy/jquery.easydropdown.js" %}"></script>
-<link href="{% static "buy/nav.css" %}" rel="stylesheet" type="text/css" media="all">
-<script type="text/javascript" src="{% static "buy/hover_pack.js" %}"></script>
-		  <script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-</head>
 <body>
-	<!-- header-section-starts -->
-        <div class="c-header" id="home">
-		<div class="top-header">
-			<div class="container">
-			<div class="logo">
-				<a href="http://www.sucaihuo.com/modals/5/554/demo/index.html"><img src="{% static "buy/logo.png" %}" alt=""></a>
-			</div>
-				<div class="header-top-right">
-				<!-- start search-->
-				    <div class="search-box">
-					    <div id="sb-search" class="sb-search">
-							<form>
-								<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
-								<input class="sb-search-submit" type="submit" value="">
-								<span class="sb-icon-search"> </span>
-							</form>
-						</div>
-				    </div>
-					<!-- search-scripts -->
-					<script src="{% static "buy/classie.js" %}"></script>
-					<script src="{% static "buy/uisearch.js" %}"></script>
-						<script>
-							new UISearch( document.getElementById( 'sb-search' ) );
-						</script>
-					<!-- //search-scripts -->
-
-					<a href="http://www.sucaihuo.com/modals/5/554/demo/cart.html"><i class="cart"></i></a>
-				</div>
-			<div class="navigation">	
-			<div>
-              <label class="mobile_menu" for="mobile_menu">
-              <span>Menu</span>
-              </label>
-              <input id="mobile_menu" type="checkbox">
-				<ul class="nav">
-              <li class="active"><a href="http://www.sucaihuo.com/modals/5/554/demo/index.html">Home</a></li>                       
-              <li class="dropdown1"><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html#">Dresses</a>
-                <ul class="dropdown2">
-                  <li><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">Dress Materials</a></li>
-                  <li><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">Kurta &amp; Kurti</a></li>
-				  <li><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">Sarees</a></li>
-				  <li><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">Chudidars</a></li>
-                </ul>
-              </li>             
-              <li class="dropdown1"><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html#">Bags</a>
-              	<ul class="dropdown2">
-                  <li><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">Latest</a></li>
-                  <li><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">Leather Bags</a></li>
-				  <li><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">Hand Bags</a></li>
-                </ul>
-              </li>
-                      
-           <li class="dropdown1"><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html#">Shoes</a>
-           	<ul class="dropdown2">
-                  <li><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">Sports Shoes</a></li>
-                  <li><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">Casual Shoes</a></li>
-				  <li><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">Formal Shoes</a></li>
-                </ul>
-           </li>        
-            <li><a href="http://www.sucaihuo.com/modals/5/554/demo/contact.html">Contact US</a></li>
-            <div class="clearfix"></div>
-          </ul>
-		</div>			
-	 </div>
-			</div>
-		</div>
-		</div>
-    -->
 		<!-- start Dresses-page -->
 	<!-- content-section-starts -->
 	<div class="container">
@@ -112,14 +26,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                        <span>&gt;</span>
                     </li>
                     <li>
-                       Dresses
+                       珠宝
 					    <span>&gt;</span>
                     </li><li>
-         <span class="red">&nbsp;Clothes&nbsp;</span>
+         <span class="red">&nbsp;裸钻&nbsp;</span>
      </li>
                 </ul>
                 <ul class="previous">
-                	<li><a href="http://www.sucaihuo.com/modals/5/554/demo/index.html">Back to Previous Page</a></li>
+                	<li><a href="/">返回主页</a></li>
                 </ul>
                 <div class="clearfix"></div>
 			   </div>
@@ -139,7 +53,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		                            <option value="">
 		                    Price : Low to High               </option>
 		            </select>
-		            <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"><img src="./Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template_ Products __ w3layouts_files/arrow2.gif" alt="" class="v-middle"></a>
                </div>
     		</div>
 	          <div class="pager">   
@@ -171,7 +84,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					  	<p class="m_2">Lorem ipsum</p>
 						<a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
 				         <div class="grid_img">
-						   <div class="css3"><img src="./Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template_ Products __ w3layouts_files/pic-5.jpg" alt=""></div>
+						   <div class="css3"><img src="{% static "buy/pic-5.jpg" %}" alt=""></div>
+
 					          <div class="mask1">
 	                       		<div class="info">Quick View</div>
 			                  </div>
@@ -202,7 +116,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						  </div>
 						 <ul class="list2">
 						  <li>
-						  	<img src="./Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template_ Products __ w3layouts_files/plus.png" alt="">
+						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
 							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
 								<ul class="sub-icon1 list">
@@ -933,5 +847,5 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				  <div class="clearfix"></div>
 			</div>
 		</div>
-
+    {% endblock %}
 </body></html>
