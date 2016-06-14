@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+{% extends "headline.html" %}
+{% block body %}
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-6"
+        <table class="table table-hover">
+            <caption><h1>客户订单</h1></caption>
+        <thead>
+        <tr>
+            <th>用户名</th>
+            <th>订单编号</th>
+            <th>订单名称</th>
+            <th>订单日期</th>
+            <th>详细描述</th>
+            <th>价格</th>
+            <th>状态</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for i in data %}
+        <tr>
+            <td>{{ i.UserID }}</td>
+            <td>{{ i.OrderID }}</td>
+            <td>{{ i.OrderName }}</td>
+            <td>{{ i.D }}</td>
+        </tr>
+        {% endfor %}
+        </tbody>
+        </table>
+    </div>
+{% endblock %}
+</html>

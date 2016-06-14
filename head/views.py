@@ -3,12 +3,12 @@ from django.contrib.auth.models import User
 from django.http import  HttpResponseRedirect
 from django.http import  HttpResponse
 from django.shortcuts import  render_to_response
-#from head.models import USER
 from django.template import RequestContext
 from django.contrib import auth
 from django.contrib.auth import  authenticate
 from django.contrib.auth.models import User
-
+from .models import ADMIN
+from .models import ORDER
 # Create your views here.
 def home (request):
     return render(request,'mainpage.html')
@@ -58,8 +58,15 @@ def log_out(request):
     return HttpResponseRedirect('/')
 
 def order(request):
-    return render(request,'order.html')
+    data=ORDER.objects.all()
+    return render(request,'order_view.html',{'data':data})
 
 def DIMMAND(request):
     return  render(request, 'buy.html')
 
+def sale(request):
+    return render(request, 'diomand.html')
+
+def user_view(request):
+    data=ADMIN.objects.all()
+    return render(request,'order.html',{'data':data})

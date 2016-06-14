@@ -28,6 +28,7 @@ urlpatterns = [
     url(r'^order/',head_view.order),
     url(r'^logout',head_view.log_out),
     url(r'Diomand',head_view.DIMMAND),
+    url(r'^sale',head_view.sale),
     url(r'^change-password/', 'django.contrib.auth.views.password_change')
 
 ]
