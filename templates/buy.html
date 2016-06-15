@@ -2,9 +2,7 @@
     {% extends 'headline.html' %}
     {%  block body  %}
 <!-- saved from url=(0055)http://www.sucaihuo.com/modals/5/554/demo/products.html -->
-<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     {% load staticfiles %}
 <title>购买页面</title>
 <link href="{% static "buy/bootstrap.css" %}" rel="stylesheet" type="text/css">
@@ -14,7 +12,7 @@
 <!-- Custom Theme files -->
 <link href="{% static "buy/style.css" %}" rel="stylesheet" type="text/css" media="all">
 <link href="{% static "buy/form.css" %}" rel="stylesheet" type="text/css" media="all">
-<body>
+</head>
 		<!-- start Dresses-page -->
 	<!-- content-section-starts -->
 	<div class="container">
@@ -22,7 +20,7 @@
 			   	 <ul class="breadcrumbs">
 				 
                     <li class="home">
-                       <a href="http://www.sucaihuo.com/modals/5/554/demo/index.html" title="Go to Home Page"><img src="{% static "buy/home.png" %}" alt=""></a>&nbsp;
+                       <a href="/" title="Go to Home Page"><img src="{% static "buy/home.png" %}" alt=""></a>&nbsp;
                        <span>&gt;</span>
                     </li>
                     <li>
@@ -38,12 +36,11 @@
                 <div class="clearfix"></div>
 			   </div>
 			   </div>
-			   <div class="container">
-	   <div class="ft-ball">
-		<div class="cont span_2_of_3">
+    <div class="container">
+		<div class="col-sm-12">
 		  <div class="mens-toolbar">
               <div class="sort">
-               	<div class="sort-by">
+               	<div  class="sort-by">
 		            <label>Sort By</label>
 		            <select>
 		                            <option value="">
@@ -65,7 +62,7 @@
 	                    15                </option>
 	                            <option value="">
 	                    30                </option>
-	                        </select> per page        
+	            </select> per page
 	             </div>
 	       		<ul class="dc_pagination dc_paginationA dc_paginationA06">
 				    <li><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html#" class="previous">Pages</a></li>
@@ -80,8 +77,8 @@
 				   <div class="col_1_of_single1 span_1_of_single1">
 				     <div class="view1 view-fifth1">
 				  	  <div class="top_box">
-					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
-					  	<p class="m_2">Lorem ipsum</p>
+					  	<h3 class="m_1">裸砖</h3>
+					  	<p class="m_2">A100011020</p>
 						<a href="/sale">
 				         <div class="grid_img">
 						   <div class="css3"><img src="{% static "buy/pic-5.jpg" %}" alt=""></div>
@@ -90,8 +87,8 @@
 	                       		<div class="info">Quick View</div>
 			                  </div>
 	                    </div>
-                       <div class="price">$ 510</div>
-					   </a></div><a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+                       <div class="price">1000元</div>
+					   </a></div><a href="/sale">
 					    </a></div>
 						<div class="rtng">
 					    <form action="http://www.sucaihuo.com/modals/5/554/demo/products.html" class="sky-form">
@@ -118,11 +115,8 @@
 						  <li>
 						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
-							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
-								<ul class="sub-icon1 list">
-									<li><h3>sed diam nonummy</h3><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"></a></li>
-									<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
-								</ul>
+							  <li><a class="active-icon c1" href="/sale">购买</a>
+
 							  </li>
 							 </ul>
 						   </li>
@@ -132,17 +126,17 @@
 				    <div class="col_1_of_single1 span_1_of_single1">
 				     <div class="view1 view-fifth1">
 				  	  <div class="top_box">
-					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
-					  	<p class="m_2">Lorem ipsum</p>
-						<a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+					  	<h3 class="m_1">裸砖</h3>
+					  	<p class="m_2">A100110101</p>
+						<a href="/sale">
 				         <div class="grid_img">
-						   <div class="css3"><img src="{% static "buy/pic-3.jpg" %}" alt=""></div>
+						   <div class="css3"><img src="{% static "image\0b48eaab-669e-4e53-954e-ff0a1ee70558.jpg" %}" alt=""></div>
 					          <div class="mask1">
-	                       		<div class="info">    浏览    </div>
+	                       		<div class="info">Quick View</div>
 			                  </div>
 	                    </div>
-                       <div class="price">$ 510</div>
-					   </a></div><a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+                       <div class="price">1000元</div>
+					   </a></div><a href="/sale">
 					    </a></div>
 					   <div class="rtng">
 					    <form action="http://www.sucaihuo.com/modals/5/554/demo/products.html" class="sky-form">
@@ -169,10 +163,10 @@
 						  <li>
 						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
-							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
+							  <li><a class="active-icon c1" href="/sale">购买 </a>
 								<ul class="sub-icon1 list">
 									<li><h3>sed diam nonummy</h3><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"></a></li>
-									<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
+									<li><p>裸砖, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
 								</ul>
 							  </li>
 							 </ul>
@@ -183,17 +177,17 @@
 				   <div class="col_1_of_single1 span_1_of_single1">
 				     <div class="view1 view-fifth1">
 				  	  <div class="top_box">
-					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
-					  	<p class="m_2">Lorem ipsum</p>
-						<a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+					  	<h3 class="m_1">裸砖</h3>
+					  	<p class="m_2">A100110101</p>
+						<a href="/sale">
 				         <div class="grid_img">
 						   <div class="css3"><img src="{% static "buy/pic-9.jpg" %}" alt=""></div>
 					          <div class="mask1">
 	                       		<div class="info">Quick View</div>
 			                  </div>
 	                    </div>
-                       <div class="price">$ 510</div>
-					   </a></div><a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+                       <div class="price">1000元</div>
+					   </a></div><a href="/sale">
 					    </a></div>
 					   <div class="rtng">
 					    <form action="http://www.sucaihuo.com/modals/5/554/demo/products.html" class="sky-form">
@@ -220,10 +214,10 @@
 						  <li>
 						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
-							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
+							  <li><a class="active-icon c1" href="/sale">购买 </a>
 								<ul class="sub-icon1 list">
 									<li><h3>sed diam nonummy</h3><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"></a></li>
-									<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
+									<li><p>裸砖, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
 								</ul>
 							  </li>
 							 </ul>
@@ -237,17 +231,17 @@
 				 <div class="col_1_of_single1 span_1_of_single1">
 				     <div class="view1 view-fifth1">
 				  	  <div class="top_box">
-					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
-					  	<p class="m_2">Lorem ipsum</p>
-						<a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+					  	<h3 class="m_1">裸砖</h3>
+					  	<p class="m_2">A100110101</p>
+						<a href="/sale">
 				         <div class="grid_img">
-						   <div class="css3"><img src="./Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template_ Products __ w3layouts_files/pic-10.jpg" alt=""></div>
+						   <div class="css3"><img src="{% static "image\0b48eaab-669e-4e53-954e-ff0a1ee70558.jpg" %}" alt=""></div>
 					          <div class="mask1">
 	                       		<div class="info">Quick View</div>
 			                  </div>
 	                    </div>
-                       <div class="price">$ 510</div>
-					   </a></div><a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+                       <div class="price">1000元</div>
+					   </a></div><a href="/sale">
 					    </a></div>
 					   <div class="rtng">
 					    <form action="http://www.sucaihuo.com/modals/5/554/demo/products.html" class="sky-form">
@@ -274,10 +268,10 @@
 						  <li>
 						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
-							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
+							  <li><a class="active-icon c1" href="/sale">购买 </a>
 								<ul class="sub-icon1 list">
 									<li><h3>sed diam nonummy</h3><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"></a></li>
-									<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
+									<li><p>裸砖, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
 								</ul>
 							  </li>
 							 </ul>
@@ -288,17 +282,17 @@
 				    <div class="col_1_of_single1 span_1_of_single1">
 				     <div class="view1 view-fifth1">
 				  	  <div class="top_box">
-					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
-					  	<p class="m_2">Lorem ipsum</p>
-						<a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+					  	<h3 class="m_1">裸砖</h3>
+					  	<p class="m_2">A100110101</p>
+						<a href="/sale">
 				         <div class="grid_img">
-						   <div class="css3"><img src="./Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template_ Products __ w3layouts_files/pic-4.jpg" alt=""></div>
+						   <div class="css3"><img src="{% static "image\0b48eaab-669e-4e53-954e-ff0a1ee70558.jpg" %}" alt=""></div>
 					          <div class="mask1">
 	                       		<div class="info">Quick View</div>
 			                  </div>
 	                    </div>
-                       <div class="price">$ 510</div>
-					   </a></div><a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+                       <div class="price">1000元</div>
+					   </a></div><a href="/sale">
 					    </a></div>
 						<div class="rtng">
 					    <form action="http://www.sucaihuo.com/modals/5/554/demo/products.html" class="sky-form">
@@ -325,10 +319,10 @@
 						  <li>
 						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
-							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
+							  <li><a class="active-icon c1" href="/sale">购买 </a>
 								<ul class="sub-icon1 list">
 									<li><h3>sed diam nonummy</h3><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"></a></li>
-									<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
+									<li><p>裸砖, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
 								</ul>
 							  </li>
 							 </ul>
@@ -339,17 +333,17 @@
 				    <div class="col_1_of_single1 span_1_of_single1">
 				     <div class="view1 view-fifth1">
 				  	  <div class="top_box">
-					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
-					  	<p class="m_2">Lorem ipsum</p>
-						<a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+					  	<h3 class="m_1">裸砖</h3>
+					  	<p class="m_2">A100110101</p>
+						<a href="/sale">
 				         <div class="grid_img">
-						   <div class="css3"><img src="./Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template_ Products __ w3layouts_files/pic-11.jpg" alt=""></div>
+						   <div class="css3"><img src="{% static "image\0b48eaab-669e-4e53-954e-ff0a1ee70558.jpg" %} " alt=""></div>
 					          <div class="mask1">
 	                       		<div class="info">Quick View</div>
 			                  </div>
 	                    </div>
-                       <div class="price">$ 510</div>
-					   </a></div><a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+                       <div class="price">1000元</div>
+					   </a></div><a href="/sale">
 					    </a></div>
 					   <div class="rtng">
 					    <form action="http://www.sucaihuo.com/modals/5/554/demo/products.html" class="sky-form">
@@ -376,10 +370,10 @@
 						  <li>
 						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
-							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
+							  <li><a class="active-icon c1" href="/sale">购买 </a>
 								<ul class="sub-icon1 list">
 									<li><h3>sed diam nonummy</h3><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"></a></li>
-									<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
+									<li><p>裸砖, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
 								</ul>
 							  </li>
 							 </ul>
@@ -393,17 +387,17 @@
 				    <div class="col_1_of_single1 span_1_of_single1">
 				     <div class="view1 view-fifth1">
 				  	  <div class="top_box">
-					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
-					  	<p class="m_2">Lorem ipsum</p>
-						<a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+					  	<h3 class="m_1">裸砖</h3>
+					  	<p class="m_2">A100110101</p>
+						<a href="/sale">
 				         <div class="grid_img">
-						   <div class="css3"><img src="{% static "buy/plus.png" %}" alt=""></div>
+						   <div class="css3"><img src="{% static "image\0b48eaab-669e-4e53-954e-ff0a1ee70558.jpg" %}" alt=""></div>
 					          <div class="mask1">
 	                       		<div class="info">Quick View</div>
 			                  </div>
 	                    </div>
-                       <div class="price">$ 510</div>
-					   </a></div><a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+                       <div class="price">1000元</div>
+					   </a></div><a href="/sale">
 					    </a></div>
 					   <div class="rtng">
 					    <form action="http://www.sucaihuo.com/modals/5/554/demo/products.html" class="sky-form">
@@ -430,10 +424,10 @@
 						  <li>
 						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
-							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
+							  <li><a class="active-icon c1" href="/sale">购买 </a>
 								<ul class="sub-icon1 list">
 									<li><h3>sed diam nonummy</h3><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"></a></li>
-									<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
+									<li><p>裸砖, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
 								</ul>
 							  </li>
 							 </ul>
@@ -444,17 +438,17 @@
 				    <div class="col_1_of_single1 span_1_of_single1">
 				     <div class="view1 view-fifth1">
 				  	  <div class="top_box">
-					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
-					  	<p class="m_2">Lorem ipsum</p>
-						<a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+					  	<h3 class="m_1">裸砖</h3>
+					  	<p class="m_2">A100110101</p>
+						<a href="/sale">
 				         <div class="grid_img">
-						   <div class="css3"><img src="./Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template_ Products __ w3layouts_files/pic-7.jpg" alt=""></div>
+						   <div class="css3"><img src="{% static "image\0b48eaab-669e-4e53-954e-ff0a1ee70558.jpg" %}" alt=""></div>
 					          <div class="mask1">
 	                       		<div class="info">Quick View</div>
 			                  </div>
 	                    </div>
-                       <div class="price">$ 510</div>
-					   </a></div><a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+                       <div class="price">1000元</div>
+					   </a></div><a href="/sale">
 					    </a></div>
 					   <div class="rtng">
 					    <form action="http://www.sucaihuo.com/modals/5/554/demo/products.html" class="sky-form">
@@ -481,10 +475,10 @@
 						  <li>
 						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
-							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
+							  <li><a class="active-icon c1" href="/sale">购买 </a>
 								<ul class="sub-icon1 list">
 									<li><h3>sed diam nonummy</h3><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"></a></li>
-									<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
+									<li><p>裸砖, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
 								</ul>
 							  </li>
 							 </ul>
@@ -495,17 +489,17 @@
 				    <div class="col_1_of_single1 span_1_of_single1">
 				     <div class="view1 view-fifth1">
 				  	  <div class="top_box">
-					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
-					  	<p class="m_2">Lorem ipsum</p>
-						<a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+					  	<h3 class="m_1">裸砖</h3>
+					  	<p class="m_2">A100110101</p>
+						<a href="/sale">
 				         <div class="grid_img">
-						   <div class="css3"><img src="./Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template_ Products __ w3layouts_files/pic-8.jpg" alt=""></div>
+						   <div class="css3"><img src="{% static "image\0b48eaab-669e-4e53-954e-ff0a1ee70558.jpg" %}" alt=""></div>
 					          <div class="mask1">
 	                       		<div class="info">Quick View</div>
 			                  </div>
 	                    </div>
-                       <div class="price">$ 510</div>
-					   </a></div><a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+                       <div class="price">1000元</div>
+					   </a></div><a href="/sale">
 					    </a></div>
 					   <div class="rtng">
 					    <form action="http://www.sucaihuo.com/modals/5/554/demo/products.html" class="sky-form">
@@ -532,10 +526,10 @@
 						  <li>
 						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
-							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
+							  <li><a class="active-icon c1" href="/sale">购买 </a>
 								<ul class="sub-icon1 list">
 									<li><h3>sed diam nonummy</h3><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"></a></li>
-									<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
+									<li><p>裸砖, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
 								</ul>
 							  </li>
 							 </ul>
@@ -549,17 +543,17 @@
 				   <div class="col_1_of_single1 span_1_of_single1">
 				     <div class="view1 view-fifth1">
 				  	  <div class="top_box">
-					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
-					  	<p class="m_2">Lorem ipsum</p>
-						<a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+					  	<h3 class="m_1">裸砖</h3>
+					  	<p class="m_2">A100110101</p>
+						<a href="/sale">
 				         <div class="grid_img">
-						   <div class="css3"><img src="./Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template_ Products __ w3layouts_files/pic-2.jpg" alt=""></div>
+						   <div class="css3"><img src="{% static "image\0b48eaab-669e-4e53-954e-ff0a1ee70558.jpg" %}" alt=""></div>
 					          <div class="mask1">
 	                       		<div class="info">Quick View</div>
 			                  </div>
 	                    </div>
-                       <div class="price">$ 510</div>
-					   </a></div><a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+                       <div class="price">1000元</div>
+					   </a></div><a href="/sale">
 					    </a></div>
 					   <div class="rtng">
 					    <form action="http://www.sucaihuo.com/modals/5/554/demo/products.html" class="sky-form">
@@ -586,10 +580,10 @@
 						  <li>
 						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
-							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
+							  <li><a class="active-icon c1" href="/sale">购买 </a>
 								<ul class="sub-icon1 list">
 									<li><h3>sed diam nonummy</h3><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"></a></li>
-									<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
+									<li><p>裸砖, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
 								</ul>
 							  </li>
 							 </ul>
@@ -600,17 +594,17 @@
 				    <div class="col_1_of_single1 span_1_of_single1">
 				     <div class="view1 view-fifth1">
 				  	  <div class="top_box">
-					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
-					  	<p class="m_2">Lorem ipsum</p>
-						<a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+					  	<h3 class="m_1">裸砖</h3>
+					  	<p class="m_2">A100110101</p>
+						<a href="/sale">
 				         <div class="grid_img">
-						   <div class="css3"><img src="./Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template_ Products __ w3layouts_files/pic-1.jpg" alt=""></div>
+						   <div class="css3"><img src="{% static "image\0b48eaab-669e-4e53-954e-ff0a1ee70558.jpg" %}" alt=""></div>
 					          <div class="mask1">
 	                       		<div class="info">Quick View</div>
 			                  </div>
 	                    </div>
-                       <div class="price">$ 510</div>
-					   </a></div><a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+                       <div class="price">1000元</div>
+					   </a></div><a href="/sale">
 					    </a></div>
 					   <div class="rtng">
 					    <form action="http://www.sucaihuo.com/modals/5/554/demo/products.html" class="sky-form">
@@ -637,10 +631,10 @@
 						  <li>
 						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
-							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
+							  <li><a class="active-icon c1" href="/sale">购买 </a>
 								<ul class="sub-icon1 list">
 									<li><h3>sed diam nonummy</h3><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"></a></li>
-									<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
+									<li><p>裸砖, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
 								</ul>
 							  </li>
 							 </ul>
@@ -651,17 +645,17 @@
 				   <div class="col_1_of_single1 span_1_of_single1">
 				     <div class="view1 view-fifth1">
 				  	  <div class="top_box">
-					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
-					  	<p class="m_2">Lorem ipsum</p>
-						<a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+					  	<h3 class="m_1">裸砖</h3>
+					  	<p class="m_2">A100110101</p>
+						<a href="/sale">
 				         <div class="grid_img">
-						   <div class="css3"><img src="./Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template_ Products __ w3layouts_files/pic.jpg" alt=""></div>
+						   <div class="css3"><img src="{% static "image\0b48eaab-669e-4e53-954e-ff0a1ee70558.jpg" %}" alt=""></div>
 					          <div class="mask1">
 	                       		<div class="info">Quick View</div>
 			                  </div>
 	                    </div>
-                       <div class="price">$ 510</div>
-					   </a></div><a href="http://www.sucaihuo.com/modals/5/554/demo/single.html">
+                       <div class="price">1000元</div>
+					   </a></div><a href="/sale">
 					    </a></div>
 					   <div class="rtng">
 					    <form action="http://www.sucaihuo.com/modals/5/554/demo/products.html" class="sky-form">
@@ -688,10 +682,10 @@
 						  <li>
 						  	<img src="{% static "buy/plus.png" %}" alt="">
 						  	<ul class="icon1 sub-icon1 profile_img">
-							  <li><a class="active-icon c1" href="http://www.sucaihuo.com/modals/5/554/demo/single.html">Add To Bag </a>
+							  <li><a class="active-icon c1" href="/sale">购买 </a>
 								<ul class="sub-icon1 list">
 									<li><h3>sed diam nonummy</h3><a href="http://www.sucaihuo.com/modals/5/554/demo/products.html"></a></li>
-									<li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
+									<li><p>裸砖, consectetuer  <a href="http://www.sucaihuo.com/modals/5/554/demo/products.html">adipiscing elit, sed diam</a></p></li>
 								</ul>
 							  </li>
 							 </ul>
@@ -702,6 +696,5 @@
 				  <div class="clearfix"></div>
 			  </div>
 			  </div>
-     	    
+     </div>
     {% endblock %}
-</body></html>

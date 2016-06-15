@@ -5,9 +5,7 @@ from django.http import  HttpResponse
 from django.shortcuts import  render_to_response
 from django.template import RequestContext
 from django.contrib import auth
-from django.contrib.auth import  authenticate
 from django.contrib.auth.models import User
-from .models import ADMIN
 from .models import ORDER
 # Create your views here.
 def home (request):
@@ -62,6 +60,7 @@ def order(request):
         return render(request,'order_view.html',{'data':data})
     else:
         return HttpResponse('无法访问')
+
 def order_yes(request):
     data=ORDER.objects.filter(Status=True)
     return render(request, 'order_view.html', {'data': data})
@@ -88,8 +87,10 @@ def DIMMAND(request):
     return  render(request, 'buy.html')
 
 def sale(request):
-    return render(request, 'diomand.html')
+    return render(request, 'goods.html')
 
-def user_view(request):
-    data=ADMIN.objects.all()
-    return render(request,'order.html',{'data':data})
+def goods(request):
+    return render(request,'goods.html')
+
+def buy(request):
+ pass

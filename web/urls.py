@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'^$',head_view.home),
     url(r'^admin/', admin.site.urls),
     url(r'^log/',head_view.log),
+    url(r'^logout', head_view.log_out),
     url(r'^sign/',head_view.sign),
     url(r'signup/',head_view.sign_up),
     url(r'^order/',head_view.order),
@@ -30,8 +31,8 @@ urlpatterns = [
     url(r'^order_no', head_view.order_no),
     url(r'^order_delete',head_view.order_delete),
     url(r'^order_change',head_view.order_change),
-    url(r'^logout',head_view.log_out),
     url(r'Diomand',head_view.DIMMAND),
     url(r'^sale',head_view.sale),
+    url(r'^goods',head_view.goods)
 
 ]

@@ -2273,7 +2273,7 @@ span.rtng {
 	display: -webkit-box;
 }
 .span_2_of_3 {
-	width: 77.1%;
+	width: 100%;
 }
 .span_1_of_left {
 	width:19.2%;
@@ -2286,6 +2286,7 @@ span.red {
 }
 .ft-ball {
 	margin-bottom: 5em;
+
 }
 /*--single--*/
 .cont{
