@@ -31,6 +31,8 @@ def log (request):
         else:
             return HttpResponseRedirect("/login")
 
+def sign_up(request):
+    return render(request,'sign up.html')
 
 def sign (request):
     if request.POST:
@@ -50,9 +52,6 @@ def sign (request):
             return render(request,'sign up.html',{'message':message})
     return HttpResponseRedirect('/')
 
-def sign_up(request):
-    return render(request,'sign up.html')
-
 def log_out(request):
     auth.logout(request)
     return HttpResponseRedirect('/')
@@ -60,6 +59,21 @@ def log_out(request):
 def order(request):
     data=ORDER.objects.all()
     return render(request,'order_view.html',{'data':data})
+
+def order_yes(request):
+    data=ORDER.objects.filter(Status=True)
+    return render(request, 'order_view.html', {'data': data})
+
+def order_no(request):
+    data=ORDER.objects.exclude(Status=True)
+    return render(request, 'order_view.html', {'data': data})
+
+def order_delete(request):
+    if request.POST:
+        check_box_list=request.POST.getlist('order')
+        for i in check_box_list:
+            ORDER.objects.filter(OrderID=int(i)).delete()
+    return HttpResponseRedirect('/order')
 
 def DIMMAND(request):
     return  render(request, 'buy.html')

@@ -4,14 +4,16 @@
 {% block body %}
         <div class="col-sm-2">
         </div>
-        <div class="col-sm-6"
+        <div class="col-sm-8">
+        <form id="order_form">
+        {% csrf_token %}
         <table class="table table-hover">
             <caption><h1>客户订单</h1></caption>
         <thead>
         <tr>
+            <th>  </th>
             <th>用户名</th>
             <th>订单编号</th>
-            <th>订单名称</th>
             <th>订单日期</th>
             <th>详细描述</th>
             <th>价格</th>
@@ -21,14 +23,30 @@
         <tbody>
         {% for i in data %}
         <tr>
+            <td><input type="checkbox" value="{{ i.OrderID }}" name="order"> </td>
             <td>{{ i.UserID }}</td>
             <td>{{ i.OrderID }}</td>
-            <td>{{ i.OrderName }}</td>
-            <td>{{ i.D }}</td>
+            <td>{{ i.DATE }}</td>
+            <td>{{ i.DES}}</td>
+            <td>{{ i.Price }}</td>
+            {% if i.Status %}
+            <td>以交付</td>
+            {% else %}
+            <td>未交付</td>
+            {% endif %}
         </tr>
         {% endfor %}
         </tbody>
         </table>
+        </form>
+        <div class="btn-group pull-right" role="button">
+        <button type="submit" class="btn btn-success" form="order_form" formaction="/order/" formmethod="post">全部订单</button>
+        <button type="submit" class="btn btn-primary" form="order_form" formaction="/order_yes" formmethod="post">已交付</button>
+        <button type="submit" class="btn btn-info"  form="order_form" formaction="/order_no" formmethod="post">未交付</button>
+        <button type="submit" class="btn btn-danger"  form="order_form" formaction="/order_delete/" formmethod="post">删除</button>
+        <button type="submit" class="btn btn-primary"  form="order_form" formaction="/order_/" formmethod="post"></button>
+        </div>
     </div>
+
 {% endblock %}
 </html>

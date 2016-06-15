@@ -23,6 +23,8 @@ class ORDER(models.Model):
     UserID=models.ForeignKey(User)
     OrderName=models.CharField(max_length=10, null=True)
     OrderID = models.IntegerField(null=False,primary_key=True)
+    ADDRESS=models.CharField(null=False)
+
     DATE=models.DateField(auto_now_add=False,null=True)
     DES=models.TextField(null=True)
     Price=models.IntegerField(null=False)

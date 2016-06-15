@@ -132,7 +132,7 @@ i.cart {
 	cursor: pointer;
 }
 .sb-search-submit {
-	background: #fff url('../images/search.png') no-repeat 9px 11px;
+	background: #fff url("") no-repeat 9px 11px;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
     filter: alpha(opacity=0); /* IE 5-7 */
     color: transparent;
