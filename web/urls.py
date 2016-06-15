@@ -16,8 +16,8 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from head import views as head_view
+
 urlpatterns = [
-    url(r'make/',head_view.detail),
     url(r'^detail/',head_view.detail),
     url(r'^login/',head_view.login),
     url(r'^$',head_view.home),
@@ -29,9 +29,9 @@ urlpatterns = [
     url(r'^order_yes',head_view.order_yes),
     url(r'^order_no', head_view.order_no),
     url(r'^order_delete',head_view.order_delete),
+    url(r'^order_change',head_view.order_change),
     url(r'^logout',head_view.log_out),
     url(r'Diomand',head_view.DIMMAND),
     url(r'^sale',head_view.sale),
-    url(r'^change-password/', 'django.contrib.auth.views.password_change'),
 
 ]

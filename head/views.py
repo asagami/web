@@ -57,9 +57,11 @@ def log_out(request):
     return HttpResponseRedirect('/')
 
 def order(request):
-    data=ORDER.objects.all()
-    return render(request,'order_view.html',{'data':data})
-
+    if request.user.is_superuser:
+        data=ORDER.objects.all()
+        return render(request,'order_view.html',{'data':data})
+    else:
+        return HttpResponse('无法访问')
 def order_yes(request):
     data=ORDER.objects.filter(Status=True)
     return render(request, 'order_view.html', {'data': data})
@@ -73,6 +75,13 @@ def order_delete(request):
         check_box_list=request.POST.getlist('order')
         for i in check_box_list:
             ORDER.objects.filter(OrderID=int(i)).delete()
+    return HttpResponseRedirect('/order')
+
+def order_change(request):
+    if request.POST:
+        check_box_list=request.POST.getlist('order')
+        for i in check_box_list:
+            ORDER.objects.filter(OrderID=int(i)).update(Status=True)
     return HttpResponseRedirect('/order')
 
 def DIMMAND(request):
