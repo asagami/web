@@ -21,18 +21,20 @@ def detail(request):
 
 
 def login(request):
-    return render(request, 'login.html')
+    url=request.POST.get('next','')
+    return render_to_response( 'login.html',{'url':url})
 
 
 def log(request):
     if request.POST:
         userid = request.POST['userID']
         passwd = request.POST['passwd']
+        url=request.POST['text']
         user = auth.authenticate(username=userid, password=passwd)
         if user is not None and user.is_active:
             auth.login(request, user)
             message = userid
-            return render_to_response('mainpage.html', {'message': message}, context_instance=RequestContext(request))
+            return HttpResponseRedirect(url, {'message':message},context_instance=RequestContext(request))
         else:
             return HttpResponseRedirect("/login")
 
@@ -119,14 +121,14 @@ def shopping(request):
 def buy(request):
     if request.POST:
         data = GOODS.objects.get(GoodName='砖石')
-        i=len(GOODS.objects.all())
+        i = len(GOODS.objects.all())
         order = ORDER()
         order.UserID = request.user.get_username()
         order.DATE = datetime.date.today()
         order.Price = data.GoodPrice
         order.ADDRESS = request.POST['address']
-        order.OrderID = 20160616*1000+i+1
+        order.OrderID = 22222 * 1000 + i + 1
         order.Telephone = request.POST['telephone']
-        order.Status = False
+        order.Status =False
         order.save()
     return HttpResponse('购买成功')

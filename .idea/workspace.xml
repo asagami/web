@@ -2,53 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36b7bf6e-a8b7-4d8c-98dd-dc1913f0aa51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/shopping.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/2be8c313-bd90-43d7-8c5f-ae914ecd3ec4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/33000000003226.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/9f6ef0e2-3e6c-4761-a69f-f7e9d9bfa515.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontColumns_navigation01.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontMembers_welcomeInfo01(1).js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontMembers_welcomeInfo01.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontOrders_showMiniCart01(1).js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontOrders_showMiniCart01.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontProducts_generalSearch01(1).js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontProducts_generalSearch01.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontProducts_list01.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontProducts_selectbyClass01(1).js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontProducts_selectbyClass01.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/all_20100501.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/as.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/btm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/cart.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/e2537709-2334-45ba-a018-1918f66f91f3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/ef72fe84-4852-4cbf-b44b-861df05565c3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/float.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/floatcard" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/i_lo2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/lib.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/online.aw" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/pa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/pa(1)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/pa(2)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/pa(3)" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/page_products01_list.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/seallogo.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/shareObject.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/split.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/visittrack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/0b48eaab-669e-4e53-954e-ff0a1ee70558.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/33000000003226.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/6273d71c-07cf-46ed-8f45-0faa355743f9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/6d5d7061-3971-4b77-a1a7-a50cd686009d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/87a37b6e-bd3f-4560-bd58-bdcf973c6420.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontColumns_navigation01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontMembers_welcomeInfo01(1).js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontMembers_welcomeInfo01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontOrders_addToFavorite01(1).js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontOrders_addToFavorite01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontOrders_showMiniCart01(1).js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontOrders_showMiniCart01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontProducts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontProducts_detail02.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontProducts_generalSearch01(1).js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/FrontProducts_generalSearch01.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/all_20100501.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/as.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/btm.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/cart.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/e2537709-2334-45ba-a018-1918f66f91f3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/ef72fe84-4852-4cbf-b44b-861df05565c3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/f0105da0-d77b-4bfc-8914-64614111da8e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/float.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/floatcard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/i_lo2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/jquery.metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/lib.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/next-no.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/online.aw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/pa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/pa(1)" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/pa(2)" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/pa(3)" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/page_products_detail.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/pre-no.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/seallogo.dll" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/share.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/shareObject.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/share_style0_24.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/split.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/head/static/-18K金钻石耳钉-钻饰-浙地珠宝——浙江唯一国有专业珠宝公司-浙地,珠宝,钻石,翡翠,玉石,彩宝_files/visittrack.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/head/models.py" afterPath="$PROJECT_DIR$/head/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/head/views.py" afterPath="$PROJECT_DIR$/head/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/buy.html" afterPath="$PROJECT_DIR$/templates/buy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/detail.html" afterPath="$PROJECT_DIR$/templates/detail.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/goods.html" afterPath="$PROJECT_DIR$/templates/goods.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/mainpage.html" afterPath="$PROJECT_DIR$/templates/mainpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/order_view.html" afterPath="$PROJECT_DIR$/templates/order_view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/urls.py" afterPath="$PROJECT_DIR$/web/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/headline.html" afterPath="$PROJECT_DIR$/templates/headline.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
     </list>
     <ignored path="web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,12 +83,9 @@
       <file leaf-file-name="goods.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/goods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-              <folding>
-                <element signature="e#525#550#0#HTML" expanded="true" />
-                <element signature="e#877#902#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="-8">
+              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,7 +93,7 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
+            <state relative-caret-position="640">
               <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
               <folding />
             </state>
@@ -103,14 +103,9 @@
       <file leaf-file-name="shopping.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/shopping.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="37" column="99" selection-start-line="37" selection-start-column="99" selection-end-line="37" selection-end-column="99" />
-              <folding>
-                <element signature="e#350#375#0#HTML" expanded="true" />
-                <element signature="e#991#1016#0#HTML" expanded="true" />
-                <element signature="e#1262#1287#0#HTML" expanded="true" />
-                <element signature="e#1558#1583#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,18 +113,18 @@
       <file leaf-file-name="headline.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/headline.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-294">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="304">
+              <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/head/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="129" column="28" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="28" />
+            <state relative-caret-position="196">
+              <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -137,48 +132,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order_view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/order_view.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="210695455627.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/210695455627.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="37" column="92" selection-start-line="37" selection-start-column="92" selection-end-line="37" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainpage.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/mainpage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-522">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="24" column="101" selection-start-line="24" selection-start-column="101" selection-end-line="24" selection-end-column="101" />
+            <state relative-caret-position="31">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -218,12 +176,9 @@
         <option value="$PROJECT_DIR$/templates/diomand.html" />
         <option value="$PROJECT_DIR$/templates/order1.html" />
         <option value="$PROJECT_DIR$/templates/order.html" />
-        <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/templates/sign up.html" />
         <option value="$PROJECT_DIR$/templates/shoppingbag.html" />
-        <option value="$PROJECT_DIR$/templates/headline.html" />
         <option value="$PROJECT_DIR$/head/static/buy/style.css" />
-        <option value="$PROJECT_DIR$/templates/goods.html" />
         <option value="$PROJECT_DIR$/web/urls.py" />
         <option value="$PROJECT_DIR$/templates/detail.html" />
         <option value="$PROJECT_DIR$/templates/order_view.html" />
@@ -231,7 +186,10 @@
         <option value="$PROJECT_DIR$/templates/buy.html" />
         <option value="$PROJECT_DIR$/head/models.py" />
         <option value="$PROJECT_DIR$/templates/mainpage.html" />
+        <option value="$PROJECT_DIR$/templates/goods.html" />
+        <option value="$PROJECT_DIR$/templates/headline.html" />
         <option value="$PROJECT_DIR$/head/views.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
       </list>
     </option>
   </component>
@@ -241,9 +199,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -289,8 +248,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -303,20 +260,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
@@ -353,15 +296,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -725,19 +671,28 @@
       <configuration name="Test: templates.login.html" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1174743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12884334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="587" y="79" width="192" height="523" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29810727" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -749,6 +704,27 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3024" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1174743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -763,7 +739,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/head/apps.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -823,13 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/head/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/signin/bootstrap.min.css" />
     <entry file="file://$PROJECT_DIR$/static/signin/signin.css" />
     <entry file="file://$PROJECT_DIR$/templates/loginmainpage.html" />
@@ -870,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="47775">
           <caret line="2275" column="14" selection-start-line="2275" selection-start-column="14" selection-end-line="2275" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -914,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="32" column="16" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -922,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="50" column="88" selection-start-line="50" selection-start-column="88" selection-end-line="50" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -930,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -938,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1071">
           <caret line="183" column="112" selection-start-line="183" selection-start-column="112" selection-end-line="183" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,6 +930,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/order_view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -971,22 +954,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/shopping.html">
+    <entry file="file://$PROJECT_DIR$/head/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="37" column="99" selection-start-line="37" selection-start-column="99" selection-end-line="37" selection-end-column="99" />
-          <folding>
-            <element signature="e#350#375#0#HTML" expanded="true" />
-            <element signature="e#991#1016#0#HTML" expanded="true" />
-            <element signature="e#1262#1287#0#HTML" expanded="true" />
-            <element signature="e#1558#1583#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
+        <state relative-caret-position="640">
           <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
           <folding />
         </state>
@@ -994,64 +972,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="127">
           <caret line="24" column="101" selection-start-line="24" selection-start-column="101" selection-end-line="24" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/shopping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/goods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="36" column="51" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-          <folding>
-            <element signature="e#525#550#0#HTML" expanded="true" />
-            <element signature="e#877#902#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="-8">
+          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/headline.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-294">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="37" column="92" selection-start-line="37" selection-start-column="92" selection-end-line="37" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mainpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-522">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/order_view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
+        <state relative-caret-position="304">
+          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/head/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="129" column="28" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="28" />
+        <state relative-caret-position="196">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
