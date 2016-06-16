@@ -14,19 +14,25 @@ class ADMIN(models.Model):
 
 class GOODS(models.Model):
     GoodID=models.IntegerField(null=False,primary_key=True)
-    GoodImage=models.ImageField(null=True)
+    GoodName=models.CharField(null=False ,max_length=20,default='  ')
+    GoodImage=models.ImageField(null=False)
     GoodPrice=models.IntegerField(null=False)
     GoodDetail=models.TextField(null=False)
+    GoodColor=models.CharField(null=False,max_length=10,default='green')
+    GoodWeight=models.IntegerField(null=False,default=0)
+    def __str__(self):
+        return  self.GoodName
 
 
 class ORDER(models.Model):
-    UserID=models.ForeignKey(User)
+    UserID=models.CharField(default=0,max_length=20)
     OrderName=models.CharField(max_length=10, null=True)
     OrderID = models.IntegerField(null=False,primary_key=True)
     ADDRESS=models.CharField(null=False,max_length=100,default=0)
     DATE=models.DateField(auto_now_add=False,null=True)
     DES=models.TextField(null=True)
     Price=models.IntegerField(null=False)
+    Telephone=models.IntegerField(null=False)
     Status=models.BooleanField(null=False)
     def __str__(self):
         return self.OrderName

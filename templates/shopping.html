@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+{% extends "headline.html" %}
+{% block body %}
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-6">
+                {% for i in data %}
+                    <table class="table tab-hover">
+                    <h1>砖石</h1>
+                    <tr style="padding-top: 50px">
+                        <td>商品名称:{{ i.GoodName }}</td>
+                        <td>商品编号:{{ i.GoodID }}</td>
+                    </tr>
+                    <tr>
+                        <td>商品价格:{{ i.GoodPrice }}</td>
+                        <td>商品细节</td>
+                    </tr>
+                    <tr>
+                        <td>颜色:{{ i.GoodColor }}</td>
+                        <td>重量:{{ i.GoodWeight }}克拉</td>
+                    </tr>
+                {% endfor %}
+                </table>
+                <form id="shopping">
+                    {% csrf_token %}
+                    <div class="input-group" style="padding-top: 50px">
+                        <span class="input-group-addon">地址</span>
+                        <input type="text" name="address" class="form-control" placeholder="address"><br>
+                    </div>
+                    <div class="input-group" style="padding-top: 50px">
+                        <span class="input-group-addon">联系电话</span>
+                        <input type="text" name="telephone" class="form-control" placeholder="telephone"><br>
+                    </div>
+                </form>
+                <div class="pull-right" style="padding-top: 50px">
+                    <button type="submit" class="btn btn-primary" form="shopping" formaction="/buy/" formmethod="post">
+                        确认购买
+                    </button>
+                    <a class="btn btn-navbar" href="/sale">返回</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

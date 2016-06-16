@@ -33,6 +33,6 @@ urlpatterns = [
     url(r'^order_change',head_view.order_change),
     url(r'Diomand',head_view.DIMMAND),
     url(r'^sale',head_view.sale),
-    url(r'^goods',head_view.goods)
-
+    url(r'^shopping',head_view.shopping),
+    url(r'^buy',head_view.buy),
 ]
