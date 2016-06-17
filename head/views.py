@@ -21,7 +21,8 @@ def detail(request):
 
 
 def login(request):
-    url=request.POST.get('next','')
+    url=request.get_full_path()
+    print(url)
     return render_to_response( 'login.html',{'url':url})
 
 
@@ -34,7 +35,7 @@ def log(request):
         if user is not None and user.is_active:
             auth.login(request, user)
             message = userid
-            return HttpResponseRedirect(url, {'message':message},context_instance=RequestContext(request))
+            return  HttpResponseRedirect(url)
         else:
             return HttpResponseRedirect("/login")
 
