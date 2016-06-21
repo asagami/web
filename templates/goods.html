@@ -1,48 +1,49 @@
 <!DOCTYPE html> {% extends "headline.html" %} {% load staticfiles %} {% block body %}
-<div class="container">
-    <ul class="nav nav-tabs">
-        <li class="pull-right"><a href="/">Home</a></li>
-    </ul>
-</div>
-<div class="container">
-    <div class="row-fluid">
-        <div class="col-sm-1">
-        </div>
-        <div class="col-xs-4 col-sm-3">
-            {% for i in data %}
-            <img src="{% static " image/a963580b-5945-4d26-b7b7-36f49f290635.JPG " %}" class="img-responsive" alt="Responsive image"
-                style="padding-top: 50px">
-        </div>
-        <div class="col-sm-1">
+    <div class="container">
+        <ul class="nav nav-tabs">
+            <li class="pull-right"><a href="/">Home</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="row-fluid">
+            <div class="col-sm-1">
+            </div>
+            <div class="col-xs-4 col-sm-3">
+                {% for i in data %}
+                    <img src="{% static "image/a963580b-5945-4d26-b7b7-36f49f290635.JPG " %}" class="img-responsive"
+                         alt="Responsive image"
+                         style="padding-top: 50px">
+                    </div>
+                    <div class="col-sm-1">
 
-        </div>
-        <div class="col-xs-4 col-sm-7">
-            <div class="row-fluid">
-                <form id="goods">
-                    {% csrf_token %}
-                    <table class="table tab-hover">
-                        <h1>砖石</h1>
-                        <tr style="padding-top: 50px">
-                            <td>商品名称:{{ i.GoodName}}</td>
-                            <td>商品编号:{{ i.GoodID }}</td>
-                        </tr>
-                        <tr>
-                            <td>商品价格:{{ i.GoodPrice }}</td>
-                            <td>商品细节</td>
-                        </tr>
-                        <tr>
-                            <td>颜色:{{ i.GoodColor }}</td>
-                            <td>重量:{{ i.GoodWeight}}克拉</td>
-                        </tr>
-                    </table>
-                </form>
+                    </div>
+                    <div class="col-xs-4 col-sm-7">
+                    <div class="row-fluid">
+                    <form id="goods">
+                        {% csrf_token %}
+                        <table class="table tab-hover">
+                            <h1>砖石</h1>
+                            <tr style="padding-top: 50px">
+                                <td>商品名称:{{ i.GoodName }}</td>
+                                <td>商品编号:{{ i.GoodID }}</td>
+                            </tr>
+                            <tr>
+                                <td>商品价格:{{ i.GoodPrice }}</td>
+                                <td>商品细节</td>
+                            </tr>
+                            <tr>
+                                <td>颜色:{{ i.GoodColor }}</td>
+                                <td>重量:{{ i.GoodWeight }}克拉</td>
+                            </tr>
+                        </table>
+                    </form>
                 {% endfor %}
                 <div class="pull-right">
-                    <button class="btn btn-primary" form="goods" formaction="/shopping" formmethod="post">购买</button>
+                    <button class="btn btn-primary" form="goods" formaction="/shopping/{{ name }}" formmethod="post">购买</button>
                     <button class="btn btn-primary" form="goods" formaction="buy" formmethod="post">加入购物车</button>
                 </div>
-            </div>
+                </div>
+                </div>
         </div>
     </div>
-</div>
 {% endblock %}

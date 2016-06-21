@@ -35,7 +35,7 @@ class ORDER(models.Model):
     Telephone=models.IntegerField(null=False)
     Status=models.BooleanField(null=False)
     def __str__(self):
-        return self.OrderName
+        return self.ADDRESS
 
 class WORK_FORM(models.Model):
     Work_FormID=models.IntegerField(null=False,primary_key=True)

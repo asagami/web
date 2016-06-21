@@ -20,18 +20,17 @@ def detail(request):
 
 
 def login(request,url):
-    return render(request,{'next':url},'login.html',)
+    return render(request,'login.html',{'next':url})
 
 
-def log(request):
+def log(request,url):
     if request.POST:
         userid = request.POST['userID']
         passwd = request.POST['passwd']
         user = auth.authenticate(username=userid, password=passwd)
         if user is not None and user.is_active:
             auth.login(request, user)
-            message = userid
-            return HttpResponseRedirect(url)
+            return  HttpResponseRedirect(url)
         else:
             return HttpResponseRedirect("/login")
 
@@ -101,29 +100,29 @@ def DIMMAND(request):
     return render(request, 'buy.html')
 
 
-def sale(request):
-    data_G = GOODS.objects.filter(GoodName='砖石')
-    return render(request, 'goods.html', {'data': data_G})
+def sale(request,name):
+    data = GOODS.objects.filter(GoodName=name)
+    return render(request, 'goods.html', {'data': data,'name':name})
 
 
-def shopping(request):
+def shopping(request,name):
     if not request.user.is_authenticated():
         return HttpResponseRedirect('/login')
     elif request.user.is_authenticated():
-        data_G = GOODS.objects.filter(GoodName='砖石')
-        return render(request, 'shopping.html', {'data': data_G})
+        data_G = GOODS.objects.filter(GoodName=name)
+        return render(request, 'shopping.html', {'data': data_G,'name':name})
 
 
-def buy(request):
+def buy(request,name):
     if request.POST:
-        data = GOODS.objects.get(GoodName='砖石')
-        i = len(GOODS.objects.all())
+        data = GOODS.objects.get(GoodName=name)
+        i = len(ORDER.objects.filter(DATE=datetime.date.today()))
         order = ORDER()
-        order.UserID = request.user.get_username()
+        order.UserID=User.objects.get(username=request.user.get_username())
         order.DATE = datetime.date.today()
         order.Price = data.GoodPrice
         order.ADDRESS = request.POST['address']
-        order.OrderID = 22222 * 1000 + i + 1
+        order.OrderID =int(str(datetime.date.today()).replace('-',''))*1000+i
         order.Telephone = request.POST['telephone']
         order.Status = False
         order.save()
