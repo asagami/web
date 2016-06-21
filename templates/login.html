@@ -23,14 +23,13 @@
 </div>
 
 <div class="container">
-    <form class="form-signin" action='/log/' method="POST">
+    <form class="form-signin" action='/log/{{ next }}' method="POST">
         {% csrf_token %}
         <h2 class="">请您登录</h2>
         <label for="inputEmail" class="sr-only">电子邮件</label>
         <input type="text" name="userID" class="form-control" placeholder="Email address" required="" autofocus="">
         <label for="inputPassword" class="sr-only">密码</label>
         <input type="password" id="inputPassword" name="passwd" class="form-control" placeholder="Password" required="">
-        <input type="hidden" name="text" value="{{ url }}">
         <div>
             <div class="checkbox">
                 <label>

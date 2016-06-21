@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from django.contrib.auth.models import User
 from django.http import HttpResponseRedirect
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
@@ -20,25 +19,21 @@ def detail(request):
     return render(request, 'detail.html')
 
 
-def login(request):
-    url=request.get_full_path()
-    print(url)
-    return render_to_response( 'login.html',{'url':url})
+def login(request,url):
+    return render(request,{'next':url},'login.html',)
 
 
 def log(request):
     if request.POST:
         userid = request.POST['userID']
         passwd = request.POST['passwd']
-        url=request.POST['text']
         user = auth.authenticate(username=userid, password=passwd)
         if user is not None and user.is_active:
             auth.login(request, user)
             message = userid
-            return  HttpResponseRedirect(url)
+            return HttpResponseRedirect(url)
         else:
             return HttpResponseRedirect("/login")
-
 
 def sign_up(request):
     return render(request, 'sign up.html')
@@ -130,6 +125,6 @@ def buy(request):
         order.ADDRESS = request.POST['address']
         order.OrderID = 22222 * 1000 + i + 1
         order.Telephone = request.POST['telephone']
-        order.Status =False
+        order.Status = False
         order.save()
     return HttpResponse('购买成功')

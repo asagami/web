@@ -19,7 +19,7 @@ from head import views as head_view
 
 urlpatterns = [
     url(r'^detail/',head_view.detail),
-    url(r'^login/',head_view.login),
+    url(r'^login/next=(.*)$',head_view.login),
     url(r'^$',head_view.home),
     url(r'^admin/', admin.site.urls),
     url(r'^log/',head_view.log),
