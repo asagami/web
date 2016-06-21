@@ -25,7 +25,7 @@ class GOODS(models.Model):
 
 
 class ORDER(models.Model):
-    UserID=models.CharField(default=0,max_length=20)
+    UserID=models.ForeignKey(User)
     OrderName=models.CharField(max_length=10, null=True)
     OrderID = models.IntegerField(null=False,primary_key=True)
     ADDRESS=models.CharField(null=False,max_length=100,default=0)
