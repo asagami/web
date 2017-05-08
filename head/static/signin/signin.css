@@ -7,6 +7,7 @@ body {
 .form-signin {
   max-width: 330px;
   padding: 15px;
+  text-align: center;
   margin: 0 auto;
 }
 .form-signin .form-signin-heading,
@@ -37,4 +38,17 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+.title{
+   text-align: center;
+  margin: 0 auto;
+}
+.inline{
+  position: relative;
+}
+.forgetpassword{
+
+.checkbox{
+  position: absolute;
+  left: 0px;
 }
